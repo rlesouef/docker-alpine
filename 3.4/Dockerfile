@@ -9,4 +9,3 @@ RUN apk update && \
     rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["sh"]
